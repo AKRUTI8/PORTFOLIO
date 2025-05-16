@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">Akruti's<span>Portfolio</span></a>
+        </div>
+        
+        <nav class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+        
+          <a href="contact.html">Contact</a>
+        </nav>
+        
+        <button class="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Akruti</span><br>Software Developer</h1>
+          <p>Passionate about building innovative solutions through code. Focusing on web development, AI and Machine Learning Models</p>
+          <div class="hero-buttons">
+            <a href="contact.html" class="btn btn-primary">Contact Me</a>
+            <a href="https://drive.google.com/file/d/1Dru7ZMSlgGL8LEEmtKjKF-k26cPfb3Zs/view?usp=drivesdk" class="btn btn-outline">CV</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" alt="Programming">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-decoration hero-decoration-1"></div>
+    <div class="hero-decoration hero-decoration-2"></div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, React, Node.js, and modern frameworks to build responsive websites.</p>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Software Engineering</h3>
+          <p>Python, Java, C++, and system design principles for building scalable applications.</p>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3>Machine Learning</h3>
+          <p>OpenCV,Tensorflow-keras,Scikit-learn</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <a href="projects.html" class="view-all">View All Projects <i class="fas fa-arrow-right"></i></a>
+      </div>
+      
+      <div class="project-grid">
+        <a href="https://human-algo-generator.vercel.app" class="project-card">
+          <div class="project-image">
+            <img src="pr1.jpg" alt="Smart Home Dashboard">
+          </div>
+          <div class="project-info">
+            <h3>Human Algorithm Generator</h3>
+            <p>A responsive Website that converts english sentense into javascript code</p>
+            <div class="project-tags">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">API Integration</span>
+            </div>
+          </div>
+        </a>
+        
+        <a href="projects.html" class="project-card">
+          <div class="project-image">
+            <img src="pr2.jpg" alt="E-commerce Analytics">
+          </div>
+          <div class="project-info">
+            <h3>Sentiment Analysis</h3>
+            <p>Machine Learning project using SVM</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas/Numpy</span>
+              <span class="tag">Scikit-learn</span>
+            </div>
+          </div>
+        </a>
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container">
+      <h2>Interested in working together?</h2>
+      <p>I'm currently available for freelance projects and internship opportunities. Let's build something amazing together!</p>
+      <a href="contact.html" class="btn btn-large">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="copyright">
+          <p>© <span id="current-year"></span> All rights reserved.</p>
+        </div>
+        
+        <div class="social-links">
+          <a href="https://github.com/AKRUTI8" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/akruti-khambhaliya-0b3089276/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:akrutipatel@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
